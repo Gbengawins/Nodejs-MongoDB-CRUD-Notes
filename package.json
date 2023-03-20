@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-mongodb-crude-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gbengawins/Nodejs-MongoDB-CRUD-Notes.git"
+  },
+  "author": "Victor Ajagunna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gbengawins/Nodejs-MongoDB-CRUD-Notes/issues"
+  },
+  "homepage": "https://github.com/Gbengawins/Nodejs-MongoDB-CRUD-Notes#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
